@@ -120,7 +120,7 @@
                         </ul>
                     </div>
                     <div class="offcanvas_footer">
-                        <span><a href="#"><i class="fa fa-envelope-o"></i> tabrickhan112@gmail.com</a></span>
+                        <span><a href="#"><i class="fa fa-envelope-o"></i>songkolok@gmail.com</a></span>
                     </div>
                 </div>
             </div>
@@ -150,9 +150,6 @@
                         <div class="col-lg-4 col-md-4">
                            <div class="top_last">
                             <ul>
-{{--                                <li><a href="{{route('admin.register')}}">Sell</a></li>--}}
-{{--                                <li><a href="#">EMI</a></li>--}}
-{{--                                <li><a href="#">Gift Card</a></li>--}}
                                 <li><a href="{{ route('contact.show') }}">Customer Care</a></li>
                             </ul>
                            </div>
@@ -168,7 +165,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-md-2 col-sm-2 col-2">
                         <div class="logo">
-                            <a href="{{route('home')}}"><img src="{{asset('frontend/assets/eplanet.png')}}" width="250px" alt=""></a>
+                            <a href="{{route('home')}}"><img src="{{asset('frontend/assets/songkolok.jpeg')}}" width="250px" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10 col-md-10 col-sm-10 col-10">
