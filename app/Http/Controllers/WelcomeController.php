@@ -13,6 +13,7 @@ use App\Models\EventProduct;
 use App\Models\ExpressWish;
 use App\Models\Product;
 use App\Models\ProductImage;
+use App\Models\ReccomendProduct;
 use App\Models\SubCategory;
 use App\Models\SubCity;
 use App\Models\WishList;
@@ -35,8 +36,16 @@ class WelcomeController extends Controller
 
         $sliders = ContactUsSlider::GetActive()->where('for', 1)->get();
 
+        $data = ['results' => $mainRes,'categories' => $category, 'products' =>$product, 'sliders' => $sliders ];
 
-        return view('welcome',['results' => $mainRes,'categories' => $category, 'products' =>$product, 'sliders' => $sliders ]);
+        if ( Auth::guard('web')->check() ){
+            $data['recommend'] = ReccomendProduct::with('product')->where('user_id', Auth::guard('web')->id())->get();
+        } else {
+            $data['recommend'] = [];
+        }
+
+
+        return view('welcome',$data);
     }
 
     public function show($slug)
@@ -46,10 +55,24 @@ class WelcomeController extends Controller
             ->where('id', $product[0]->category_id)
             ->first();
         $area = Division::with('districts.cities')->get();
-//dd($mainRes);
+
+        if (! empty($mainRes->id)) $this->storeInRecommendProduct($mainRes->id);
+
         return view('pages.product-details',['results' => $mainRes,'products' =>$product, 'areas' => $area]);
 
     }
+
+
+    private function storeInRecommendProduct($product_id)
+    {
+        if ( Auth::guard('web')->check() ){
+            ReccomendProduct::create([
+                'product_id' => $product_id,
+                'user_id' => Auth::guard('web')->id()
+            ]);
+        }
+    }
+
 
     // Show Category
     public function category($slug){
