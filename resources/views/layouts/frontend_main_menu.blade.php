@@ -387,7 +387,7 @@
                                 @else
                                     <li class="has-child c-1 c-1"><a href="{{ route('blog.allBog') }}"> Vlog </a> </li>
                                 @endif
-                                <li class=" anime"><a href="{{route('promotion.category')}}"><h4 class="ml2">নবাবীহাট</h4></a></li>
+                                <li class=" anime"><a href="{{route('promotion.category')}}"><h4 class="ml2">সংকলক</h4></a></li>
 
                             </ul>
                         </nav>

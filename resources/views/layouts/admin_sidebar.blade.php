@@ -37,9 +37,9 @@
     <a href="{{route('admin.dashboard')}}" class="brand-link">
 {{--        <img src="{{ asset('frontend/assets/img/logo/logo3.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">--}}
         @if( \Illuminate\Support\Facades\Auth::guard('admin')->user()->role == 1 )
-            <span class="brand-text  font-weight-light">Admin Eplanet | {{ Auth::guard('admin')->user()->name }}</span>
+            <span class="brand-text  font-weight-light">Admin Songkolok | {{ Auth::guard('admin')->user()->name }}</span>
         @else
-            <span class="brand-text font-weight-light">Vendor Eplanet | {{ Auth::guard('admin')->user()->name }}</span>
+            <span class="brand-text font-weight-light">Vendor Songkolok | {{ Auth::guard('admin')->user()->name }}</span>
         @endif
     </a>
 

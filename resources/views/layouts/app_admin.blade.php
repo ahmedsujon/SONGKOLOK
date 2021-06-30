@@ -5,7 +5,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ __('Admin | Eplanet') }}</title>
+    <title>{{ __('Admin | Songkolok') }}</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/assets/img/logo/logo3.png') }}">
 
     <!-- Google Font: Source Sans Pro -->
@@ -41,7 +41,7 @@
 
 <!-- Main Footer -->
     <footer class="main-footer">
-        <strong>Copyright &copy; {{date('Y')}} <a href="{{route('home')}}">Eplanet</a>.</strong>
+        <strong>Copyright &copy; {{date('Y')}} <a href="{{route('home')}}">Songkolok</a>.</strong>
         All rights reserved.
     </footer>
 </div>
