@@ -18,9 +18,9 @@
 </div>
 <!--slider area end-->
 
-   <!--  Section Discover slider Start  -->
+<!--  Section Discover slider Start  -->
 
-   <section class="discover-section">
+   {{-- <section class="discover-section">
        <div class="container-fluid">
           <div class="row">
               <div class=" col-lg-12 col-md-12 col-sm-12 col-12">
@@ -109,9 +109,9 @@
                </div>
            </div>
        </div>
-   </section>
+   </section> --}}
 
-   <!-- Section Discover slider End  -->
+<!-- Section Discover slider End  -->
 
 
 <!--  Section Product slider Start  -->
@@ -134,11 +134,10 @@
 
                       </h2>
                 </div>
-
                 <div class="col-12">
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="plant1" role="tabpanel">
-                            <div class="product_carousel product_column5 owl-carousel">
+                            <div class="product_carousel product_column4 owl-carousel">
                                     @foreach($categories as $category)
                                         <div class="product_items">
                                             <article class="single_product">
@@ -146,7 +145,6 @@
                                                     <div class="single_banner">
                                                         <div class="banner_thumb">
                                                           <div class="zoom-In">
-
                                                             <a href="{{route('cat.show',$category->category_slug)}}">
                                                                 <img src="{{assetImageAndVideo('images') . $category->category_image}}" alt="{{$category->category_name}}">
                                                             </a>
@@ -165,7 +163,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-md-12">
                     <h2>
@@ -180,14 +177,12 @@
                         <span>l</span>
                         <span>e</span>
                         <span>r</span>
-
                       </h2>
                 </div>
-
                 <div class="col-12">
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="plant1" role="tabpanel">
-                            <div class="product_carousel product_column5 owl-carousel">
+                            <div class="product_carousel product_column4 owl-carousel">
                                     @foreach($products as $product)
                                         <div class="product_items">
                                             <article class="single_product">
@@ -216,10 +211,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
             </div>
             @if( count($recommend) > 0 )
             <div class="row">
@@ -227,7 +218,7 @@
                     <div class="col-12">
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="plant1" role="tabpanel">
-                                <div class="product_carousel product_column5 owl-carousel">
+                                <div class="product_carousel product_column4 owl-carousel">
                                     @foreach($recommend as $index => $pro)
                                         <div class="product_items">
                                             <article class="single_product">
@@ -245,8 +236,6 @@
                                                         <h4 class="product_name"><a href="{{route('pages.show', $pro->product->product_slug)}}">{{$pro->product->product_name}}</a></h4>
                                                         <div class="price_box">
                                                             <span class="current_price">BDT {{ round($pro->product->product_price) }}</span>
-
-
                                                         </div>
                                                     </figcaption>
                                                 </figure>
@@ -264,12 +253,11 @@
                 @if(count($mainRe->products) > 0)
                     <div class="row">
                 <div class="col-md-12"><h2>{{$mainRe->category_name}}</h2></div>
-{{--@php  print_r($mainRe->products); @endphp--}}
                 <div class="col-12">
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="plant1" role="tabpanel">
-                            <div class="product_carousel product_column5 owl-carousel">
-@foreach($mainRe->products as $index => $pro)
+                            <div class="product_carousel product_column4 owl-carousel">
+                                @foreach($mainRe->products as $index => $pro)
                                     <div class="product_items">
                                         <article class="single_product">
                                             <figure>
@@ -293,14 +281,14 @@
                                             </figure>
                                         </article>
                                     </div>
-@endforeach
+                                @endforeach
                             </div>
                         </div>
                     </div>
                 </div>
 
             </div>
-                @endif
+            @endif
             @endforeach
 
         </div>

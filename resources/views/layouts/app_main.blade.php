@@ -109,7 +109,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-7">
                     <div class="copyright_area">
-                        <p>All Rights Reserved  © 2020</p>
+                        <p>All Rights Reserved  © 2021</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-5">
