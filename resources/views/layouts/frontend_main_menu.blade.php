@@ -318,11 +318,6 @@
                     <div class="col-md-10 col-lg-10 col-10">
                         <nav class="nav" id="main-nav">
                             <ul class="responsive-menu">
-
-{{--                                <li class="has-child c-1">--}}
-{{--                                    <a href="{{ route('home') }}">{{__('Home')}}</a>--}}
-{{--                                </li>--}}
-
                                 <li class="has-child c-1">
                                     <a href="">E-CAMP</a>
                                     <ul class="drop-down drop-menu-1">
@@ -371,8 +366,6 @@
                                         </li>
                                     @endforeach
                                 @endif
-
-
                                 @if( \Illuminate\Support\Facades\Auth::check())
                                     <li class="has-child c-1">
                                         <a href="#">Vlog</a>
@@ -388,16 +381,11 @@
                                     <li class="has-child c-1 c-1"><a href="{{ route('blog.allBog') }}"> Vlog </a> </li>
                                 @endif
                                 <li class=" anime"><a href="{{route('promotion.category')}}"><h4 class="ml2">সংকলক</h4></a></li>
-
                             </ul>
                         </nav>
                     </div>
-{{--                    <div class="col-md-1"></div>--}}
                 </div>
-
             </div>
         </div>
-
-
     </div>
 </header>
