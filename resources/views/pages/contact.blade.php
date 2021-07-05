@@ -76,7 +76,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -186,7 +186,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -202,7 +202,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -215,7 +215,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="card-body">
-                                    <p>google@gmail.com</p>
+                                    <p>songkolok@gmail.com</p>
                                     <p class="card-text">+088 01927474087</p>
                                 </div>
                             </div>
@@ -276,33 +276,25 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-2">
+
+                </div>
+                <div class="col-sm-12 col-md-4">
                     <div class="address">
-                        <h3 class="title"><span>Gazipur Branch</span></h3>
-                        <p class="address-line">Rowshan Shorok, Joydebpur Road, Gazipur Chowrasta, Gazipur<br>Desktop : 01709995400<br>Laptop: 01313717103</p>
+                        <h3 class="title"><span>Narail Branch</span></h3>
+                        <p class="address-line">1st Floor, Mustari Complex, Rupganj Bazar Narail Sadar Narail<br>Mobile: 01954154453</p>
                         <p class="closed-day">Friday Closed <a href="https://goo.gl/maps/5V8eL6mNYh7Q7dE57" target="_blank" rel="noopener"><span class="fa fa-map-marker" data-rating="1" alt="google-map"></span></a> </p>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-4">
                     <div class="address">
-                        <h3 class="title"><span>Uttara Branch</span></h3>
-                        <p class="address-line">Rowshan Shorok, Joydebpur Road, Gazipur Chowrasta, Gazipur<br>Desktop : 01709995400<br>Laptop: 01313717103</p>
+                        <h3 class="title"><span>Fedi Bazar Branch</span></h3>
+                        <p class="address-line">R1st Floor, Songkolok Tower, Fedi bazar, Narail Sadar Narail<br>Mobile: 01954154453</p>
                         <p class="closed-day">Friday Closed <a href="https://goo.gl/maps/5V8eL6mNYh7Q7dE57" target="_blank" rel="noopener"><span class="fa fa-map-marker" data-rating="1" alt="google-map"></span></a> </p>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3">
-                    <div class="address">
-                        <h3 class="title"><span>Dhanmondi Branch</span></h3>
-                        <p class="address-line">Rowshan Shorok, Joydebpur Road, Gazipur Chowrasta, Gazipur<br>Desktop : 01709995400<br>Laptop: 01313717103</p>
-                        <p class="closed-day">Friday Closed <a href="https://goo.gl/maps/5V8eL6mNYh7Q7dE57" target="_blank" rel="noopener"><span class="fa fa-map-marker" data-rating="1" alt="google-map"></span></a> </p>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-3">
-                    <div class="address">
-                        <h3 class="title"><span>Mirpur Branch</span></h3>
-                        <p class="address-line">Rowshan Shorok, Joydebpur Road, Gazipur Chowrasta, Gazipur<br>Desktop : 01709995400<br>Laptop: 01313717103</p>
-                        <p class="closed-day">Friday Closed <a href="https://goo.gl/maps/5V8eL6mNYh7Q7dE57" target="_blank" rel="noopener"><span class="fa fa-map-marker" data-rating="1" alt="google-map"></span></a> </p>
-                    </div>
+                <div class="col-sm-12 col-md-2">
+
                 </div>
             </div>
         </div>
