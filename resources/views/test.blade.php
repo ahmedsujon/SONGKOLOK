@@ -62,10 +62,10 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4 col-lg-4 col-sm-12">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-md-6 col-lg-6 col-sm-12 float-left">
+                    <div class="col-lg-6 col-md-6 col-sm-12 float-left">
                         <div class="widgets_container widget_menu">
-                            <h3>ABOUT</h3>
+                            <h3>Information</h3>
                             <div class="footer_menu">
 
                                 <ul>
@@ -74,41 +74,32 @@
                                     <li><a href="{{ route('privacy') }}"> Privacy Policy</a></li>
                                     <li><a href="{{ route('terms') }}"> Terms & Conditions</a></li>
                                     <li><a href="{{route('contact.show')}}"> Contact Us</a></li>
+                                    <li><a href="{{ route('faq') }}">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 float-left">
+                        <div class="widgets_container widget_menu">
+                            <h3>Extras</h3>
+                            <div class="footer_menu">
+                                <ul>
+                                    <li><a href="{{ route('brands.show') }}">Brands</a></li>
+                                    <li><a href="{{ route('gift') }}">  Gift Certificates</a></li>
+                                    <li><a href="{{ route('affilate') }}">Affiliate</a></li>
+                                    <li><a href="{{ route('special') }}">Specials</a></li>
+                                    <li><a href="{{ route('return') }}">Returns</a></li>
+                                    @if( \Illuminate\Support\Facades\Auth::check())
+                                        <li><a href="{{route('profile.show')}}"> Order History</a></li>
+                                    @endif
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-lg-3 col-sm-12">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="widgets_container widget_menu">
-                            <h3>INFO</h3>
-                            <div class="footer_menu">
 
-                                <ul>
-                                    <li><a href="#">Size Guide</a></li>
-                                    <li><a href="{{route('contact.show')}}">Store Locator</a></li>
-                                    <li><a href="{{ route('privacy') }}"> One Stop Shop Order</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 col-lg-5 col-sm-12">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="widgets_container widget_menu">
-                            <h3>CUSTOMER SUPPORT</h3>
-                            <div class="footer_menu">
-                                <ul>
-                                    <li><a>01954154453</a></li>
-                                    <li><a href="{{ route('delivery') }}">1st Floor, Mustari Complex,
-                                        Rupganj Bazar Narail Sadar Narail</a></li>
-                                    <li><a href="{{ route('privacy') }}">contact@songkolok.com</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12 float-left"></div>
+
             </div>
         </div>
     </div>
