@@ -86,7 +86,7 @@
 
                                 <ul>
                                     <li><a href="#">Size Guide</a></li>
-                                    <li><a href="{{route('contact.show')}}">Store Locator</a></li>
+                                    <li><a href="{{route('contact.show')}}">Branch Location</a></li>
                                     <li><a href="{{ route('privacy') }}"> One Stop Shop Order</a></li>
                                 </ul>
                             </div>
@@ -100,8 +100,7 @@
                             <div class="footer_menu">
                                 <ul>
                                     <li><a>01954154453</a></li>
-                                    <li><a href="{{ route('delivery') }}">1st Floor, Mustari Complex,
-                                        Rupganj Bazar Narail Sadar Narail</a></li>
+                                    <li><a href="{{ route('delivery') }}">House: 02, Road: 01, Turag City, Shah Ali, Mirpur-1, Dhaka-1216</a></li>
                                     <li><a href="{{ route('privacy') }}">contact@songkolok.com</a></li>
                                 </ul>
                             </div>
