@@ -145,6 +145,9 @@ Route::delete('wishlist/{wishList}', 'WelcomeController@deleteWishList')->name('
 Route::get('addExpressList/{id}', 'WelcomeController@addExpressList')->name('add.express.list');
 Route::get('contact', 'Users\ContactController@employeeContact')->name('contact.show');
 
+Route::resource('/contact-support',  'Users\SupportController');
+Route::get('messages', 'Users\Admin\SupportController@index')->name('support.message');
+
 //brand
 Route::get('brands', 'Users\ContactController@brandShow')->name('brands.show');
 Route::get('brands/{slug}', 'Users\NavbarController@brandProduct')->name('brandProduct.show');

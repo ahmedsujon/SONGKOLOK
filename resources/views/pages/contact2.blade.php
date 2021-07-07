@@ -85,21 +85,32 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-2">
-
+                <div class="col-sm-12 col-md-3">
+                    <div class="address">
+                        <h3 class="title"><span>Head Office</span></h3>
+                        <p class="address-line">House: 02, Road: 01, Turag City, Shah Ali, Mirpur-1, Dhaka-1216<br>Mobile: 01954154453</p>
+                        <p class="closed-day">Friday Closed</p>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-3">
+                    <div class="address">
+                        <h3 class="title"><span>Mirpur Branch</span></h3>
+                        <p class="address-line">S-107, Level-6, Shah Ali Shopping Complex, Mirpur-1, Dhaka-1216<br>Mobile: 01954154453</p>
+                        <p class="closed-day">Friday Closed</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
                     <div class="address">
                         <h3 class="title"><span>Narail Branch</span></h3>
                         <p class="address-line">1st Floor, Mustari Complex, <br> Rupganj Bazar Narail Sadar Narail<br>Mobile: 01954154453</p>
-                        <p class="closed-day">Friday Closed <a href="https://goo.gl/maps/5V8eL6mNYh7Q7dE57" target="_blank" rel="noopener"><span class="fa fa-map-marker" data-rating="1" alt="google-map"></span></a> </p>
+                        <p class="closed-day">Friday Closed</p>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-3">
                     <div class="address">
                         <h3 class="title"><span>Fedi Bazar Branch</span></h3>
                         <p class="address-line">R1st Floor, Songkolok Tower, <br> Fedi bazar, Narail Sadar Narail<br>Mobile: 01954154453</p>
-                        <p class="closed-day">Friday Closed <a href="https://goo.gl/maps/5V8eL6mNYh7Q7dE57" target="_blank" rel="noopener"><span class="fa fa-map-marker" data-rating="1" alt="google-map"></span></a> </p>
+                        <p class="closed-day">Friday Closed</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-2">

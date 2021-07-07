@@ -1477,9 +1477,15 @@
                                     </li>
                                 </ul>
                             </li>
-
-
                         </ul>
+                        <li class="nav-item ">
+                            <a href="{{ route('support.message') }}" class="admin_sidebar_nav_link nav-link @if(
+                                            url()->current() == route('support.message')
+            ) active @endif">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Contact Message</p>
+                            </a>
+                        </li>
                     </li>
 {{--                @endif--}}
 

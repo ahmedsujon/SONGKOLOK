@@ -67,13 +67,12 @@
                         <div class="widgets_container widget_menu">
                             <h3>ABOUT</h3>
                             <div class="footer_menu">
-
                                 <ul>
                                     <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="{{route('contact-support.index')}}"> Contact Us</a></li>
                                     <li><a href="{{ route('delivery') }}">Delivery Information</a></li>
                                     <li><a href="{{ route('privacy') }}"> Privacy Policy</a></li>
                                     <li><a href="{{ route('terms') }}"> Terms & Conditions</a></li>
-                                    <li><a href="{{route('contact.show')}}"> Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -112,7 +111,7 @@
             </div>
         </div>
     </div>
-<hr style="border:1px solid #FFF">
+<hr style="border:1px solid rgb(87, 86, 86)">
     <div class="footer_bottom">
         <div class="container">
             <div class="row align-items-center">
