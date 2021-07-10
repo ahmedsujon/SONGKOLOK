@@ -206,6 +206,7 @@
                                                     <li><a href="{{route('register')}}">{{ __('Signup') }}</a></li>
                                                     <li><a href="{{ route('login') }}">{{ __('Login') }}</a></li>
                                                 @else
+                                                <li><a href="{{route('profile.show')}}">{{ __('Profile') }}</a></li>
                                                     <li><a href="{{route('logout')}}"
                                                            onclick="event.preventDefault();
                                                              document.getElementById('logout-form').submit();"

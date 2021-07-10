@@ -116,16 +116,18 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-7">
                     <div class="copyright_area">
-                        <p>All Rights Reserved  © 2021</p>
+                        <p>© 2021 SONGKOLOK. All Rights Reserved.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-5">
                     <div class="footer_payment">
                         <ul>
-                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/paypal1.jpg') }}" alt=""></a></li>
-                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/paypal2.jpg') }}" alt=""></a></li>
-                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/paypal3.jpg') }}" alt=""></a></li>
                             <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/paypal4.jpg') }}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/mastercard.png') }}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/dbbl.png') }}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/BKash.png') }}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/Nagad.png') }}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/sslcommerce.png') }}" alt=""></a></li>
                         </ul>
                     </div>
                 </div>
