@@ -26,9 +26,6 @@
                                 @csrf
                             </form>
                         @endif
-                        <li><a href="#">English</a></li>
-                            <li><a href="{{ route('contact.show') }}">Customer Care</a></li>
-                        </ul>
                     </div>
                     <div class="header_social text-right">
                         @php $categories = \App\Models\Category::with(['subcategory', 'subcategory.secondary_sub_categories'])->orderBy('created_at','desc')->GetActive()->get();  @endphp
@@ -150,7 +147,7 @@
                         <div class="col-lg-4 col-md-4">
                            <div class="top_last">
                             <ul>
-                                <li><a href="{{ route('contact.show') }}">Customer Care</a></li>
+                                <li><a href="{{ route('contact.show') }}">+880 1954154453</a></li>
                             </ul>
                            </div>
                         </div>
@@ -209,6 +206,7 @@
                                                     <li><a href="{{route('register')}}">{{ __('Signup') }}</a></li>
                                                     <li><a href="{{ route('login') }}">{{ __('Login') }}</a></li>
                                                 @else
+                                                <li><a href="{{route('profile.show')}}">{{ __('Profile') }}</a></li>
                                                     <li><a href="{{route('logout')}}"
                                                            onclick="event.preventDefault();
                                                              document.getElementById('logout-form').submit();"
@@ -217,7 +215,6 @@
                                                         @csrf
                                                     </form>
                                                 @endif
-                                                <li><a href="#">English</a></li>
                                             </ul>
                                         </div>
 
@@ -309,20 +306,12 @@
                 <div class="row">
                     <div class="col-lg-1 col-md-1 col-1">
                         <div class="location" style="text-align: center;margin-top:10px;">
-                            <a href="{{ route('contact.show') }}">
-                                <i class="fa fa-map-marker " aria-hidden="true"></i> <br>
-                                <span class="text-white">Dhaka</span>
-                            </a>
+
                         </div>
                     </div>
                     <div class="col-md-10 col-lg-10 col-10">
                         <nav class="nav" id="main-nav">
                             <ul class="responsive-menu">
-
-{{--                                <li class="has-child c-1">--}}
-{{--                                    <a href="{{ route('home') }}">{{__('Home')}}</a>--}}
-{{--                                </li>--}}
-
                                 <li class="has-child c-1">
                                     <a href="">E-CAMP</a>
                                     <ul class="drop-down drop-menu-1">
@@ -371,8 +360,6 @@
                                         </li>
                                     @endforeach
                                 @endif
-
-
                                 @if( \Illuminate\Support\Facades\Auth::check())
                                     <li class="has-child c-1">
                                         <a href="#">Vlog</a>
@@ -387,17 +374,12 @@
                                 @else
                                     <li class="has-child c-1 c-1"><a href="{{ route('blog.allBog') }}"> Vlog </a> </li>
                                 @endif
-                                <li class=" anime"><a href="{{route('promotion.category')}}"><h4 class="ml2">নবাবীহাট</h4></a></li>
-
+                                <li class=" anime"><a href="https://songkolok.com/"><h4 class="ml2">সংকলক</h4></a></li>
                             </ul>
                         </nav>
                     </div>
-{{--                    <div class="col-md-1"></div>--}}
                 </div>
-
             </div>
         </div>
-
-
     </div>
 </header>

@@ -30,14 +30,14 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'google' => [
-        'client_id' => '632747549098-mul1sl3nmuf5bpjqo0sam8q8rjghhlmh.apps.googleusercontent.com',
-        'client_secret' => 'Ac_Hpb0wftxWQfeic-F-Bxsk',
-        'redirect' => ( config('app.environment') == "development" ) ? 'http://127.0.0.1:8000/callback/google' : 'https://eplanet.com.bd/callback/google',
+        'client_id' => '21670678517-638ptu2p842jqsjvtkg6kgjv6k2vjqo1.apps.googleusercontent.com',
+        'client_secret' => 'j4BsxqJDtvBnUoSgtWk31teN',
+        'redirect' => ( config('app.environment') == "development" ) ? 'http://127.0.0.1:8000/callback/google' : 'https://songkolok.com/callback/google',
     ],
 
     'facebook' => [
         'client_id' => '237539788169370',
         'client_secret' => '30356cce3fded2d747e6efd97df6c1a0',
-        'redirect' => ( config('app.environment') == "development" ) ? 'http://127.0.0.1:8000/callback/google' : 'https://eplanet.com.bd/callback/google',
+        'redirect' => ( config('app.environment') == "development" ) ? 'http://127.0.0.1:8000/callback/google' : 'https://songkolok.com/callback/google',
     ],
 ];

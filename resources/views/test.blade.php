@@ -62,72 +62,63 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4 col-lg-4 col-sm-12">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-md-6 col-lg-6 col-sm-12 float-left">
+                    <div class="col-lg-6 col-md-6 col-sm-12 float-left">
                         <div class="widgets_container widget_menu">
-                            <h3>ABOUT</h3>
-                            <div class="footer_menu">
-                                <ul>
-                                    <li><a href="{{ route('about') }}">About Us</a></li>
-                                    <li><a href="{{route('contact-support.index')}}"> Contact Us</a></li>
-                                    <li><a href="{{ route('delivery') }}">Delivery Information</a></li>
-                                    <li><a href="{{ route('privacy') }}"> Privacy Policy</a></li>
-                                    <li><a href="{{ route('terms') }}"> Terms & Conditions</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-lg-3 col-sm-12">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="widgets_container widget_menu">
-                            <h3>INFO</h3>
+                            <h3>Information</h3>
                             <div class="footer_menu">
 
                                 <ul>
-                                    <li><a href="#">Size Guide</a></li>
-                                    <li><a href="{{route('contact.show')}}">Branch Location</a></li>
-                                    <li><a href="{{ route('privacy') }}"> One Stop Shop Order</a></li>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="{{ route('delivery') }}">Delivery Information</a></li>
+                                    <li><a href="{{ route('privacy') }}"> Privacy Policy</a></li>
+                                    <li><a href="{{ route('terms') }}"> Terms & Conditions</a></li>
+                                    <li><a href="{{route('contact.show')}}"> Contact Us</a></li>
+                                    <li><a href="{{ route('faq') }}">FAQ</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-5 col-lg-5 col-sm-12">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-lg-6 col-md-6 col-sm-12 float-left">
                         <div class="widgets_container widget_menu">
-                            <h3>CUSTOMER SUPPORT</h3>
+                            <h3>Extras</h3>
                             <div class="footer_menu">
                                 <ul>
-                                    <li><a>01954154453</a></li>
-                                    <li><a href="{{ route('delivery') }}">House: 02, Road: 01, Turag City, Shah Ali, Mirpur-1, Dhaka-1216</a></li>
-                                    <li><a href="{{ route('privacy') }}">contact@songkolok.com</a></li>
+                                    <li><a href="{{ route('brands.show') }}">Brands</a></li>
+                                    <li><a href="{{ route('gift') }}">  Gift Certificates</a></li>
+                                    <li><a href="{{ route('affilate') }}">Affiliate</a></li>
+                                    <li><a href="{{ route('special') }}">Specials</a></li>
+                                    <li><a href="{{ route('return') }}">Returns</a></li>
+                                    @if( \Illuminate\Support\Facades\Auth::check())
+                                        <li><a href="{{route('profile.show')}}"> Order History</a></li>
+                                    @endif
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-6 col-lg-6 col-sm-12 float-left"></div>
+
             </div>
         </div>
     </div>
-<hr style="border:1px solid rgb(87, 86, 86)">
+<hr style="border:1px solid #FFF">
     <div class="footer_bottom">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-7">
                     <div class="copyright_area">
-                        <p>© 2021 SONGKOLOK. All Rights Reserved.</p>
+                        <p>All Rights Reserved  © 2021</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-5">
                     <div class="footer_payment">
                         <ul>
+                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/paypal1.jpg') }}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/paypal2.jpg') }}" alt=""></a></li>
+                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/paypal3.jpg') }}" alt=""></a></li>
                             <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/paypal4.jpg') }}" alt=""></a></li>
-                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/mastercard.png') }}" alt=""></a></li>
-                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/dbbl.png') }}" alt=""></a></li>
-                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/BKash.png') }}" alt=""></a></li>
-                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/Nagad.png') }}" alt=""></a></li>
-                            <li><a href="#"><img src="{{ asset('frontend/assets/img/icon/sslcommerce.png') }}" alt=""></a></li>
                         </ul>
                     </div>
                 </div>
