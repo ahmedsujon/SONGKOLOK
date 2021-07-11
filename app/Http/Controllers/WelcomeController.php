@@ -51,12 +51,13 @@ class WelcomeController extends Controller
     public function show($slug)
     {
         $product = Product::with(['productImages', 'productVideos','admin', 'category', 'subcategory', 'brand', 'secondsub', 'coupon'])->where('product_slug', $slug)->GetActive()->get();
+
         $mainRes = Category::with('products')
             ->where('id', $product[0]->category_id)
             ->first();
         $area = Division::with('districts.cities')->get();
 
-        if (! empty($mainRes->id)) $this->storeInRecommendProduct($mainRes->id);
+        if (! empty($mainRes->id)) $this->storeInRecommendProduct($product[0]->id);
 
         return view('pages.product-details',['results' => $mainRes,'products' =>$product, 'areas' => $area]);
 
